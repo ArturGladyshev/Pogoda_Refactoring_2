@@ -1,3 +1,5 @@
+package PogodaParsing;
+
 import java.io.IOException;
 import org.jsoup.nodes.Document;
 import org.jsoup.Jsoup;

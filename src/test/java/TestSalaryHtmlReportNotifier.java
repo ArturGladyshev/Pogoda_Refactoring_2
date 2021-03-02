@@ -33,7 +33,7 @@ public  class TestSalaryHtmlReportNotifier {
         LocalDate dateTo = LocalDate.of(2014, Month.DECEMBER, 31);
         Statiment statiment = new Statiment("10", dateFrom, dateTo, "somebody@gmail.com");
 
-//Запуск цепочки Хенждеолв и проверка отработки цепочки методов
+//Запуск цепочки Хенлеров и проверка отработки цепочки методов
         SendListenerImp sendListenerImp = mock(SendListenerImp.class);
         SalaryHtmlReportNotifier salaryHtmlReportNotifier = new SalaryHtmlReportNotifier(someFakeConnection , statiment );
         SendHandler sendHandler = mock(SendHandler.class);
